@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+let port = process.env.PORT || 3000;
+
 app.get('/:date', (req, res) => {
 
 	let unix = Number.parseInt(req.params.date);
@@ -31,6 +33,6 @@ app.get('/:date', (req, res) => {
 	res.status(200).send(response);
 });
 
-app.listen(3000, () => {
-	console.log('Example app listening on port 3000!');
+app.listen(port, () => {
+	console.log('Example app listening on port ' + port);
 });
