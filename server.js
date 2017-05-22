@@ -6,8 +6,6 @@ let port = process.env.PORT || 3000;
 app.get('/:date', (req, res) => {
 
 	let unix = Number.parseInt(req.params.date);
-	console.log("Unix time: " + unix);
-
 	let date;
 
 	if (!Number.isNaN(unix)) {
