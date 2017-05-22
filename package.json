@@ -1,0 +1,22 @@
+{
+  "name": "fcc-api",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Express API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jereaa/fcc-api.git"
+  },
+  "author": "Jere Aagaard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jereaa/fcc-api/issues"
+  },
+  "homepage": "https://github.com/jereaa/fcc-api#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
